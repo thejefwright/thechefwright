@@ -30,6 +30,13 @@ h1 {
 }
 p {
   font-size: 1.5rem;
+  line-height: 1.5;
+}
+a:link {
+  color: var(--orange);
+}
+a:visited {
+  /* color: var(--orange-hover); */
 }
 header {
   height: 100vh;
