@@ -272,7 +272,19 @@ nav {
   transform: scale(1.05);
   box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.5);
 }
-
+.card > p {
+  padding-top: 3rem;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10rem;
+  padding: 4rem;
+}
+footer > * {
+  padding: 0 2rem;
+}
 @media screen and (max-width: 800px) {
   .burger-wrapper {
     display: flex;
