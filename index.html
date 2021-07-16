@@ -16,31 +16,17 @@
   </head>
   <body>
     <header>
-      <div class="shadow-wrapper">
-        <div class="burger-wrapper hamburger-scrolled">
-          <div class="hamburger"></div>
+      <div class="overlay">
+        <div class="shadow-wrapper">
+          <div class="burger-wrapper hamburger-scrolled">
+            <div class="hamburger"></div>
+          </div>
         </div>
-      </div>
-      <div class="menu">
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="/gallery.html">Gallery</a></li>
-          <li>
-            <a
-              href="mailto: jef@jef.pizza?subject=booking a private dinner"
-              target="_blank"
-              >Contact</a
-            >
-          </li>
-        </ul>
-      </div>
-      <nav>
-        <div class="wrapper">
-          <ul class="nav">
+        <div class="menu">
+          <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
-            <li><a href="/gallery.html">Gallery</a></li>
+            <li><a href="#gallery">Gallery</a></li>
             <li>
               <a
                 href="mailto: jef@jef.pizza?subject=booking a private dinner"
@@ -50,10 +36,26 @@
             </li>
           </ul>
         </div>
-      </nav>
-      <div class="header-content">
-        <h1 class="name">Jef Wright</h1>
-        <h2 class="title">Private Chef</h2>
+        <nav>
+          <div class="wrapper">
+            <ul class="nav">
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li>
+                <a
+                  href="mailto: jef@jef.pizza?subject=booking a private dinner"
+                  target="_blank"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="header-content">
+          <h1 class="name">Jef Wright</h1>
+          <h2 class="title">Private Chef</h2>
+        </div>
       </div>
     </header>
     <section class="content">
@@ -95,9 +97,9 @@
         >
       </div>
     </section>
-    <section class="services">
+    <section id="services" class="services">
       <h2>Services:</h2>
-      <div id="services" class="cards">
+      <div class="cards">
         <div class="card">
           <h1>Cooking Classes</h1>
           <hr />
@@ -128,6 +130,21 @@
           </p>
         </div>
       </div>
+    </section>
+    <section id="gallery" class="gallery">
+      <h2>Gallery</h2>
+      <img src="/assets/beet-salad-mimi-square.jpg" alt="Beet Salad" />
+
+      <img
+        src="/assets/little gem caesar-mimi-square.jpg"
+        alt="Little Gem Caesar salad"
+      />
+      <img
+        src="/assets/pork belly tonnato-mimi-square.jpg"
+        alt="Pork Belly Tonnato"
+      />
+      <img src="/assets/plates-mimi-square.jpg" alt="dishes" />
+      <img src="/assets/octo-mimi-square.jpg" alt="Octopus" />
     </section>
     <footer>
       <p>&copy; 2021 Chef Jef Wright</p>
