@@ -58,8 +58,6 @@ nav {
 
 .shadow-wrapper {
   position: fixed;
-  /* top: 0; */
-  /* left: 0; */
   filter: drop-shadow(1px 1px 10px grey);
   z-index: 2;
 }
@@ -133,6 +131,7 @@ nav {
   transition: all 0.4s cubic-bezier(0.9, 0.41, 0.3, 1.38);
   transform: translateX(-100%);
   border-radius: 50%;
+  z-index: 1;
 }
 .menu > ul {
   list-style: none;
